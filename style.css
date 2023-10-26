@@ -73,7 +73,7 @@ img {
 }
 
 a {
-  color: skyblue;
+  color: rgb(9, 9, 77);
   text-decoration: none;
 }
 
@@ -125,19 +125,25 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje1 {
-  float: left;
-  width: 250px;
+.item-plaatje1{
+  float: middle;
+  width:550px;
+  height: 300px;
+  margin-left: 80px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-plaatje2{
   float: middle;
-  width: auto;
+  width: 500px;
+  margin-left: 80px;
+
+  
 }
 
 .item-tekst {
   float: right;
-  width: 450px;
+  width: 1400px;
+  height: auto;
 }
 
 /************************* SUBPAGINA *************************/
@@ -152,4 +158,9 @@ nav li a.active {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1200px;
+}
+
+.actief {
+  background: url(afbeeldingen/NFL-logo.png);
+
 }
