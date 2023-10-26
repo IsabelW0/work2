@@ -23,8 +23,8 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background-color: #c30d0d;    /* achtergrondkleur lichtgrijs */
+  color: wheat;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -52,11 +52,16 @@ main {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: skyblue;
+  color: rgb(174, 2, 2);
 } 
+
+h2 {
+  color: #bdbcca;
+  margin-left: 280px;
+}
 
 p {
   margin: 10px 0px;
@@ -89,7 +94,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #a7a9b3;
   overflow: hidden;
 }
 
@@ -99,7 +104,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -110,7 +115,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color:;
 }
 
 
@@ -120,10 +125,14 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
+.item-plaatje1 {
   float: left;
   width: 250px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+.item-plaatje2{
+  float: middle;
+  width: auto;
 }
 
 .item-tekst {
@@ -136,3 +145,11 @@ nav li a.active {
 /* Indeling en opmaak voor subpagina */
 
 /* verzin deze zelf... */
+
+#achtergrondweb {
+  background-image: url(afbeeldingen/nflf.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
