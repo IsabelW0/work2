@@ -23,8 +23,8 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #c30d0d;    /* achtergrondkleur lichtgrijs */
-  color: wheat;               /* tekstkleur donkergrijs */
+  background-color: #803535;    /* achtergrondkleur lichtgrijs */
+  color: rgb(236, 224, 196);               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -56,11 +56,12 @@ h1, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
   color: rgb(174, 2, 2);
+
 } 
 
 h2 {
   color: #bdbcca;
-  margin-left: 280px;
+  margin-left:150px;
 }
 
 p {
@@ -73,7 +74,7 @@ img {
 }
 
 a {
-  color: rgb(9, 9, 77);
+  color: rgb(123, 123, 234);
   text-decoration: none;
 }
 
@@ -163,4 +164,8 @@ nav li a.active {
 .actief {
   background: url(afbeeldingen/NFL-logo.png);
 
+}
+
+.h12{
+  color: #d7d7d7;
 }
