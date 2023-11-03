@@ -55,7 +55,7 @@ main {
 h1, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: rgb(174, 2, 2);
+  color: rgb(178, 53, 53);
 
 } 
 
@@ -158,7 +158,7 @@ nav li a.active {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1200px;
+  height: 1400px;
 }
 
 .actief {
@@ -167,5 +167,59 @@ nav li a.active {
 }
 
 .h12{
-  color: #d7d7d7;
+  color: #b6b1c1;
 }
+
+
+#info.html{
+  background-color: rgb(243, 238, 229);
+}
+
+.nflmi{
+  width: 500px;
+  margin-left: 100px;
+}
+
+.h2info{
+  color: antiquewhite;
+  margin: auto;
+}
+
+.h1info{
+color: #b0a6cb;
+}
+
+.nflover{
+  margin-left: 30px;
+}
+
+.nflsta{
+  width: 500px;
+  margin-left: 90px;
+  
+}
+
+
+#bgn {
+  background-image: url(afbeeldingen/n1b.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1600px;
+}
+
+#bgn2 {
+  background-image: url(afbeeldingen/bg5.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+.n2{
+  width: 600px;
+  margin-right: 200px;
+}
+
+Over mij = Top player
+
