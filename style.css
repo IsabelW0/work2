@@ -94,20 +94,29 @@ a:hover {                         /* <a> als je er met de muis op staat */
 nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
-  padding: 0;
+  padding-top: 20px;
   background-color: #a7a9b3;
   overflow: hidden;
 }
 
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
   float: left;
+margin-top: 15px;
+margin-left: 60px;
 }
+
+.logo {
+  width:40px;
+margin-right: 0px;
+margin-bottom: 10px;
+}
+
 
 nav li a {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 18px;
   text-decoration: none;
 }
 
@@ -221,10 +230,6 @@ color: #b0a6cb;
   margin-right: 200px;
 }
 
-.logo {
-  width:40px;
-margin-left: 20px;
-}
 
 
 
