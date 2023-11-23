@@ -23,8 +23,9 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #803535;    /* achtergrondkleur lichtgrijs */
-  color: rgb(236, 224, 196);               /* tekstkleur donkergrijs */
+  background-color: #cec9c9;    /* achtergrondkleur lichtgrijs */
+  color: rgb(234, 221, 190);  
+  font-family: Georgia, 'Times New Roman', Times, serif;     /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -34,14 +35,34 @@ div {                             /* geldt voor div */
 }
 
 
+
 /************************* ALLE WEBPAGINA'S *************************/
 
 /* Indeling en opmaak voor alle pagina's */
 
-.page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+page {
+  width: 1000px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
+}
+
+
+.item1 {
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.h2index {
+color: #341212;
+margin-left: 700px;
+}
+
+.tekstindex1 {
+  margin-left: 650px;
+  width: 700px;
+  color: black;
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -74,7 +95,7 @@ img {
 }
 
 a {
-  color: rgb(123, 123, 234);
+  color: rgb(28, 28, 60);
   text-decoration: none;
 }
 
@@ -95,7 +116,9 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding-top: 20px;
-  background-color: #a7a9b3;
+  padding-block: 5px;
+  width: 2000px;
+  background-color: rgb(14, 19, 41);
   overflow: hidden;
 }
 
@@ -116,8 +139,10 @@ nav li a {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 14px 18px;
+  padding: 9px 18px;
   text-decoration: none;
+  margin-bottom: 12px;
+  margin-left: 40px;
 }
 
 nav li a:hover {
@@ -162,13 +187,6 @@ nav li a.active {
 
 /* verzin deze zelf... */
 
-#achtergrondweb {
-  background-image: url(afbeeldingen/nflf.jpeg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1400px;
-}
 
 .actief {
   background: url(afbeeldingen/NFL-logo.png);
