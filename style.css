@@ -41,27 +41,31 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 page {
-  width: 1000px;                   /* vaste breedte van 700 pixels */
+  width: 500px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 
 .item1 {
-  width: 1000px;
+  width: 1800px;
   margin: auto;
-  margin-top: 20px;
-  margin-left: 500px;
+  margin-top: 0px;
+  margin-left: 212px;
+}
+.item2 {
+  width: 2230px;
 }
 
 .h2index {
 color: #341212;
-margin-left: 700px;
+margin-left: 850px;
 }
 
 .tekstindex1 {
-  margin-left: 650px;
+  margin-left: 750px;
   width: 700px;
+  margin-top: 20px;
   color: black;
 }
 
@@ -117,7 +121,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   margin: auto;
   padding-top: 20px;
   padding-block: 5px;
-  width: 2000px;
+  width: 1800px;
   background-color: rgb(14, 19, 41);
   overflow: hidden;
 }
@@ -248,7 +252,9 @@ color: #b0a6cb;
   margin-right: 200px;
 }
 
-
+.head1 {
+  width: 145px;
+}
 
 
 Over mij = Top player
